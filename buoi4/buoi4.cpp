@@ -2,8 +2,9 @@
 
 #include <iostream>
 #include <string>
-using namespace std;
+#include <cmath>
 
+using namespace std;
 
 void cau1() {
     string hoten;
@@ -21,7 +22,6 @@ void cau1() {
     gioitinh = temp == 1 ? true : false;
     cout << hoten << "\t" << namsinh << "\t" << (gioitinh == true ? "Nam" : "Nu") << endl;
 }
-
 
 void cau2() {
     int sotien;
@@ -47,8 +47,6 @@ void cau2() {
     
 }
 
-
-
 void cau3() {
     float bankinh, chieucao;
     cout << "Nhap ban kinh, chieu cao (cm): ";
@@ -60,8 +58,17 @@ void cau3() {
     cout << "So lit nuoc la : " << V / 1000 << " (lit)" << endl;
 }
 
+void cau4() {
+    int x1, y1, x2, y2;
+    cout << "Nhap toa do diem A(x,y): ";
+    cin >> x1 >> y1;
+    cout << "Nhap toa do diem B(x,y): ";
+    cin >> x2 >> y2;
+    cout << "Khoang cach: " << sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)) << endl;
+}
+
 int main()
 {
-    cau3();
+    cau4();
 }
 
