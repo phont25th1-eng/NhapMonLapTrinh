@@ -8,21 +8,27 @@ void cau1() {
     cout << " Nhap a, b, c: ";
     cin >> a >> b >> c;
 
-    if (a > b && a > c);
+    if (a > b && a > c)
     cout << a;
-    if (b > a && b > c);
+    if (b > a && b > c)
     cout << b;
-    if (c > a && c > b);
+    if (c > a && c > b)
     cout << c;
 }
 
 void cau2() {
-
+    float a, b;
+    cout << " Nhap a, b: ";
+    cin >> a >> b;
+    if (a * b > 0)
+        cout << "cung dau";
+    else
+        cout << "khac dau";
 }
 
 
 int main()
 {
-    cau1();
+    cau2();
 }
 
