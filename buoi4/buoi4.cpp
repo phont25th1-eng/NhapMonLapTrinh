@@ -22,7 +22,6 @@ void cau1() {
     gioitinh = temp == 1 ? true : false;
     cout << hoten << "\t" << namsinh << "\t" << (gioitinh == true ? "Nam" : "Nu") << endl;
 }
-
 void cau2() {
     int sotien;
     cout << " Nhap so tien: ";
@@ -46,7 +45,6 @@ void cau2() {
     cout << " So to 10k: " << to10k << endl;
     
 }
-
 void cau3() {
     float bankinh, chieucao;
     cout << "Nhap ban kinh, chieu cao (cm): ";
@@ -57,7 +55,6 @@ void cau3() {
     cout << "The tich tru tron la: " << V << "(cm3)" << endl;
     cout << "So lit nuoc la : " << V / 1000 << " (lit)" << endl;
 }
-
 void cau4() {
     int x1, y1, x2, y2;
     cout << "Nhap toa do diem A(x,y): ";
@@ -67,8 +64,16 @@ void cau4() {
     cout << "Khoang cach: " << sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)) << endl;
 }
 
+void cau5() {
+    int a, b, c;
+    cout << "Nhap 3 canh: ";
+    cin >> a >> b >> c;
+    cout << "The tich: " << a * b * c << endl;
+    cout << "Dien tich: " << 2 * (a * b + b * c + a * c) << endl;
+}
+
 int main()
 {
-    cau4();
+    cau5();
 }
 
