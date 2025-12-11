@@ -42,8 +42,47 @@ void cau4() {
     }
 }
 
+void cau5() {
+    int n;
+    cout << "Nhap n: ";
+    cin >> n;
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0) {
+            cout << i << endl;
+        }
+    }
+}
+
+void cau6() {
+    int n, tong = 0;
+    cout << "Nhap n: ";
+    cin >> n;
+    for (int i = 1; i < n; i++) {
+        if (n % i == 0) {
+            tong += i;
+        }
+    }
+    cout << "Tong cac uoc: " << tong << endl;
+}
+
+void cau7() {
+    int n, tong = 0;
+    cout << "Nhap n: ";
+    cin >> n;
+    for (int i = 1; i < n; i++) {
+        if (n % i == 0) {
+            tong += i;
+        }
+    }
+    if (tong == n)
+        cout << n << " la so hoan thien" << endl;
+    else {
+        cout << n << " khong la so hoan thien" << endl;
+    }
+
+}
 int main()
 {
-    cau4();
+    cau6();
 }
 
