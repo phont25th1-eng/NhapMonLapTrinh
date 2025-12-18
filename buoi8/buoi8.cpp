@@ -1,0 +1,10 @@
+
+#include "Array.h"
+#define MAX 100
+
+int main()
+{
+    int a[MAX], n = 0;
+    input(a, n);
+}
+
