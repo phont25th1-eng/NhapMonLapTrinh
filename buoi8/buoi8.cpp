@@ -10,7 +10,7 @@ int main()
     //giatrichan(a, n);
     //vitriam(a, n);
     //giatrilonnhat(a, n);
-    vitrinhonhat(a, n);
-    
+    //vitrinhonhat(a, n);
+    nguyentonhohon100(a, n);
 }
 
