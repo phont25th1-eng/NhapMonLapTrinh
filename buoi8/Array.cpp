@@ -47,3 +47,14 @@ void giatrilonnhat(int b[], int n) {
 	cout << "Gia tri lon nhat:" << max << endl;
 	
 }
+void vitrinhonhat(int b[], int n) {
+	int min = b[0], vt = 0;
+	for (int i = 1; i < n; i++) {
+		if (b[i] > min) {
+			min = b[i];
+			vt = i;
+		}
+	}
+	cout << "Vi tri co gia tri nho nhat:" << vt + 1 << endl;
+
+}
