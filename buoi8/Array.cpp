@@ -87,3 +87,10 @@ void sapxeptangdan(int b[], int n) {
 				b[i] = t;
 			}
 }
+int giatriduongdautien(int b[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (b[i] > 0)
+			return b[i];
+	}
+	return -1;
+ }
