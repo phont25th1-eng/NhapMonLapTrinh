@@ -12,6 +12,8 @@ int main()
     //giatrilonnhat(a, n);
     //vitrinhonhat(a, n);
     //nguyentonhohon100(a, n);
-    tonggiatriam(a, n);
+  //tonggiatriam(a, n);
+    sapxeptangdan(a, n);
+    output(a, n);
 }
 
